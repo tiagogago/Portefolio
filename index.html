@@ -131,8 +131,8 @@
               </p>
 
               <div class="btn-contato">
-                <a href="#">
-                  <button>Entre em contacto</button>
+                <a href="cv.pdf" download="CV">
+                  <button>Download meu CV</button>
                 </a>
               </div>
             </div>
@@ -206,18 +206,19 @@
             <div class="txt-sobre" id="sobre">
               <h2>MUITO PRAZER, <span>MEU NOME É TIAGO GAGO.</span></h2>
               <p>
-                I'm Tiago Gago, a passionate Full Stack Developer from Lisboa,
-                Portugal 🌍. I’m here to help turn ideas into powerful,
-                tech-driven solutions!
+                Sou um apaixonado por tecnologia, sou um profissional em Full
+                Stack Developer Website em Lisboa, Portugal 🌍. Estou aqui para
+                ajudar a transformar ideias em soluções poderosas e baseadas em
+                tecnologia!
               </p>
               <p>
-                I am a Junior Full Stack Developer and I love working on
-                front-end and back-end projects. My focus is on making
-                development smooth and scalable, whether it's building an
-                elegant web application, automating workflows, or creating
-                efficient database and web page authoring solutions. I’m always
-                on the lookout for new tech that can streamline work and make
-                life easier.
+                Sou um developer de websites Junior Full Stack e adoro trabalhar
+                em projetos front-end e back-end. O meu foco é tornar o
+                desenvolvimento suave e escalável, seja construindo uma
+                aplicação web elegante, automatizando fluxos de trabalho ou
+                criando soluções eficientes de base de dados e criação de
+                páginas web. Estou sempre à procura de novas tecnologias que
+                possam agilizar o trabalho e facilitar a vida.
               </p>
               <div class="btn-social">
                 <a href="https://github.com/tiagogago" title="GitHub"
@@ -225,7 +226,7 @@
                     type="submit"
                     name="myButton"
                     value="foo"
-                    title="button"
+                    title="GitHub"
                   >
                     <i class="bi bi-github"></i></button
                 ></a>
@@ -236,7 +237,7 @@
                     type="submit"
                     name="myButton"
                     value="foo"
-                    title="button"
+                    title="Whatsapp"
                   >
                     <i class="bi bi-whatsapp"></i></button
                 ></a>
@@ -247,9 +248,20 @@
                     type="submit"
                     name="myButton"
                     value="foo"
-                    title="button"
+                    title="Linkedin"
                   >
                     <i class="bi bi-linkedin"></i></button
+                ></a>
+                <a
+                  href="mailto:tiago.gago60@gmail.com?subject=I%20want%20to%20know%20more%20about%20your%20work&body=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20work%2C%20could%20we%20arrange%C2%A0an%C2%A0interview%3F"
+                  title="Gmail"
+                  ><button
+                    type="submit"
+                    name="myButton"
+                    value="foo"
+                    title="Gmail"
+                  >
+                    <i class="bi bi-envelope-fill"></i></button
                 ></a>
               </div>
               <!--btn-social-->
@@ -295,28 +307,39 @@
         <div class="interface">
           <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
-          <form action="">
+          <form
+            action="https://formsubmit.co/tiago.gago60@gmail.com"
+            method="POST"
+          >
             <input
               type="text"
-              name=""
+              name="name"
               id=""
               placeholder="Seu nome completo:"
               required
             />
             <input
-              type="text"
-              name=""
+              type="email"
+              name="email"
               id=""
               placeholder="Seu e-mail:"
               required
             />
-            <input type="text" name="" id="" placeholder="Seu telemóvel:" />
+            <input
+              type="telefone"
+              name="telefone"
+              id=""
+              placeholder="Seu telemóvel:"
+            />
             <textarea
-              name=""
+              name="message"
               id=""
               placeholder="Sua mensagem"
               required
             ></textarea>
+            <input type="hidden" name="_subject" value="Novo Contacto!" />
+            <input type="text" name="_honey" style="display: none" />
+            <input type="hidden" name="_captcha" value="false" />
             <div class="btn-enviar"><input type="submit" value="ENVIAR" /></div>
           </form>
         </div>
@@ -346,7 +369,7 @@
                   type="submit"
                   name="myButton"
                   value="foo"
-                  title="button"
+                  title="GitHub"
                 >
                   <i class="bi bi-github"></i></button
               ></a>
@@ -357,7 +380,7 @@
                   type="submit"
                   name="myButton"
                   value="foo"
-                  title="button"
+                  title="Whatsapp"
                 >
                   <i class="bi bi-whatsapp"></i></button
               ></a>
@@ -368,9 +391,20 @@
                   type="submit"
                   name="myButton"
                   value="foo"
-                  title="button"
+                  title="Linkedin"
                 >
                   <i class="bi bi-linkedin"></i></button
+              ></a>
+              <a
+                href="mailto:tiago.gago60@gmail.com?subject=I%20want%20to%20know%20more%20about%20your%20work&body=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20work%2C%20could%20we%20arrange%C2%A0an%C2%A0interview%3F"
+                title="Gmail"
+                ><button
+                  type="submit"
+                  name="myButton"
+                  value="foo"
+                  title="Gmail"
+                >
+                  <i class="bi bi-envelope-fill"></i></button
               ></a>
             </div>
             <!--btn-social-->
@@ -380,10 +414,9 @@
 
         <div class="line-footer borda">
           <p>
-            <i class="bi bi-envelope-fill"></i>
-            <a
-              href="mailto:tiago.gago60@gmail.com?subject=I%20want%20to%20know%20more%20about%20your%20work&body=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20work%2C%20could%20we%20arrange%C2%A0an%C2%A0interview%3F"
-              >tiago.gago60@gmail.com</a
+            <a href="#" title="" style="color: white"
+              >©Footer Content Including Social Media Icons/Links -
+              <span>Clica aqui para o topo</span></a
             >
           </p>
         </div>

@@ -391,6 +391,16 @@ footer .line-footer p i {
 
 footer .line-footer p a {
   color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.line-footer.borda {
+  color: white !important;
+}
+
+.line-footer.borda span {
+  color: #00ff08;
 }
 
 @media screen and (max-width: 1020px) {
