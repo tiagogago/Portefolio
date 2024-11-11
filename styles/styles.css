@@ -52,6 +52,38 @@ form .btn-enviar input:hover {
   transform: scale(1.05);
 }
 
+#ptButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+#ptButton img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+#enButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+#enButton img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
 /* ESTILO DO CABEÇALHO */
 header {
   padding: 40px 4%;
