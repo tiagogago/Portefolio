@@ -456,6 +456,11 @@ footer .line-footer p a {
     display: none;
   }
 
+  #btn-download {
+    display: block;
+    text-align: center;
+  }
+
   /* TOPO DO SITE */
 
   section.topo-do-site .flex {

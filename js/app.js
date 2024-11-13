@@ -65,6 +65,12 @@ function loadContent(data, language) {
         } else {
           idElement.placeholder = value;
         }
+      } else if (key == "downloadCvButton") {
+        const aTag = idElement.parentElement;
+
+        aTag.href = content["downloadCvSource"];
+
+        idElement.innerHTML = value;
       } else {
         idElement.innerHTML = value;
       }
